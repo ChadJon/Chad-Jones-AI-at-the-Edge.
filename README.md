@@ -18,6 +18,11 @@ Chad-Jones-AI-at-the-Edge/
 │   └── Lab2/                 # Model Deployment on Simulated Devices
 │       ├── README.md         # Detailed lab summary and learning outcomes
 │       └── L02_Report.pdf    # Conceptual deployment report
+    └── Lab3/                 # MNIST Edge Simulation (Python + Edge Impulse)
+│       ├── README.md
+│       ├── your_code.ipynb
+│       ├── Simulation_Doc.pdf
+│       └── Reflective_Journal.pdf
 └── Assignments/              # Research projects and Case Study analyses
     ├── Assignment1/          # Edge AI Tools and Environments
     │   ├── README.md         # Summary of the Edge AI ecosystem
