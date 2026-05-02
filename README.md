@@ -27,15 +27,15 @@ Chad-Jones-AI-at-the-Edge/
         └── A02_Report.pdf    # Case study analysis and technical evaluation
 
  ## 🛠️ Tools & Technologies
- ** AI Frameworks: ** TensorFlow, TensorFlow Lite, Keras, YOLO V3.
-** Hardware Ecosystem:** NVIDIA Jetson TX2/Orin, ESP32, Raspberry Pi.
-** Dev Tools: ** VS Code, Google Colab, Jupyter Notebooks, Edge Impulse.
-** Languages & Protocols: ** Python, Node.js, LoRaWAN, MQTT.
+ **AI Frameworks:** TensorFlow, TensorFlow Lite, Keras, YOLO V3.
+**Hardware Ecosystem:** NVIDIA Jetson TX2/Orin, ESP32, Raspberry Pi.
+**Dev Tools:** VS Code, Google Colab, Jupyter Notebooks, Edge Impulse.
+**Languages & Protocols:** Python, Node.js, LoRaWAN, MQTT.
 
 ## 📬 Contact Information
 For collaboration or professional inquiries, please feel free to reach out:
-** Name: ** Chad Jones
-** Email: ** chadjones1@gmail.com
-** Course: ** ITAI 3377 - A.I. at the Edge & IIOT Env
-** Acknowledgment: **
-Special thanks to ** Professor Sitaram Ayyagari ** for providing the insights and framework to explore the future of IIOT and Edge Intelligence.
+**Name:** Chad Jones
+**Email:** chadjones1@gmail.com
+**Course:** ITAI 3377 - A.I. at the Edge & IIOT Env
+**Acknowledgment:**
+Special thanks to **Professor Sitaram Ayyagari** for providing the insights and framework to explore the future of IIOT and Edge Intelligence.
