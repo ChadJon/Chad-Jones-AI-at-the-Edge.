@@ -1,0 +1,26 @@
+# Lab 6: Industrial IoT (IIoT) Time Series Forecasting
+
+## Purpose
+The goal of this lab was to develop a robust forecasting model capable of predicting future temperature trends based on IoT sensor data. Using a dataset of over 97,000 records, I implemented a full data science pipeline from raw sensor logs to advanced predictive modeling.
+
+## Technical Pipeline
+### 1. Data Preprocessing
+Raw IIoT data is often noisy and irregularly sampled. I implemented the following:
+*   **Cleaning:** Removed static room IDs and handled duplicate entries.
+*   **Resampling:** Aggregated high-frequency logs into daily means to reduce noise.
+*   **Gap Filling:** Applied **5th-order spline interpolation** to handle missing dates and ensure a continuous time-series sequence.
+
+### 2. Feature Engineering
+To improve model accuracy, I engineered several domain-specific features:
+*   **Temporal Components:** Extracted Year, Month, Weekday, and Hour.
+*   **Seasonal Context:** Created categorical labels for regional climates (Winter, Monsoon, Summer).
+*   **Exogenous Variables:** Incorporated "In/Out" sensor placement as a predictor.
+
+### 3. Generative Modeling (Synthetic Data)
+A novel aspect of this lab was using **Generative AI** for data augmentation. I developed a **Variational Autoencoder (VAE)** using TensorFlow/Keras to generate synthetic temperature data, improving model robustness against data sparsity.
+
+### 4. Model Selection (AutoML)
+I utilized the **Nixtla AutoML (StatsForecast)** framework to automatically evaluate and select the best model from several candidates, including **AutoARIMA**, **AutoETS**, and **MSTL**, using a Rolling-Origin Cross-Validation strategy.
+
+## Deliverables
+*   [Jupyter Notebook Implementation](./L06_HasanZaidi_ITAI_3377.ipynb)
