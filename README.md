@@ -30,6 +30,11 @@ Chad-Jones-AI-at-the-Edge/
     └── Assignment2/          # Case Study: Real-Time Video Analytics
         ├── README.md         # Overview of the Liverpool Smart City project
         └── A02_Report.pdf    # Case study analysis and technical evaluation
+    
+│   ├── Assignment1/          # Edge AI Tools Report
+│   ├── Assignment2/          # Video Analytics Case Study
+│   ├── Assignment3/          # IIoT Forecasting (VAE + AutoML)
+│   └── Midterm-Project/      # Cybersecurity Plan for AI-IIoT
 
  ## 🛠️ Tools & Technologies
  **AI Frameworks:** TensorFlow, TensorFlow Lite, Keras, YOLO V3.
